@@ -304,6 +304,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/settings\/settings.config.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/settings.config.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
@@ -343,7 +356,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
-	"lastBuiltDate": 543178603
+	"lastBuiltDate": 543179143
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

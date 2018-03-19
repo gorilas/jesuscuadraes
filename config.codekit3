@@ -26,50 +26,50 @@
 		},
 	"\/bower_components\/megatype\/.bower.json": {
 		"ft": 524288,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/.bower.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/bower_components\/megatype\/AUTHORS.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/AUTHORS.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/megatype\/bower.json": {
 		"ft": 524288,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/bower.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
 	"\/bower_components\/megatype\/CONTRIBUTORS.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/CONTRIBUTORS.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/megatype\/gulpfile.babel.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/gulpfile.babel.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
 	"\/bower_components\/megatype\/LICENSE.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/LICENSE.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower_components\/megatype\/megatype.scss": {
 		"aP": 1,
@@ -78,9 +78,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -93,7 +93,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_config.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -106,7 +106,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_container.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -119,7 +119,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_debug.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -132,7 +132,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_map-helpers.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -145,7 +145,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_media.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -158,7 +158,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_text-link.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -171,7 +171,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/_typography.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -184,7 +184,7 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/toolsets\/_toolset__easing.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -197,15 +197,15 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/megatype\/toolsets\/_toolset__units.scss",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
 	"\/bower_components\/megatype\/package.json": {
 		"ft": 524288,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/package.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -217,9 +217,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/README.md",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -231,9 +231,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/wdio-sauce.conf.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -241,9 +241,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/bower_components\/megatype\/wdio.conf.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
@@ -531,6 +531,19 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/build\/css\/main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/settings\/megatype.config.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/megatype.config.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

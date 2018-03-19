@@ -446,6 +446,27 @@
 		"oAP": "\/build\/favicon.ico",
 		"oF": 0
 		},
+	"\/source\/fonts\/test-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test-webfont.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/test-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test-webfont.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/test-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test-webfont.woff2",
+		"oF": 0
+		},
 	"\/source\/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -535,6 +556,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/settings\/fonts.config.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/fonts.config.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/settings\/megatype.config.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -600,7 +634,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
-	"lastBuiltDate": 543179143
+	"lastBuiltDate": 543182740
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

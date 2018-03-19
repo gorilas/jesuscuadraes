@@ -2,13 +2,19 @@
 @charset "utf-8";
 
 @import "settings/settings.config";
+@import "settings/fonts.config";
 @import "settings/megatype.config";
 @import "../../bower_components/megatype/megatype";
 
 
 @include megatype;
 
-body {
+p {
   font-family: font-family-of($sans);
   @include typeset($sans, $my-font-size, 2rem, 0, 2);
+}
+
+.container {
+  @include set-container;
+  margin: 0 auto;
 }

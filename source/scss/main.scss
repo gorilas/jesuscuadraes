@@ -16,27 +16,65 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background: deeppink;
+  color: white;
+}
+
 h1 {
+  font-weight: normal;
   font-family: font-family-of($sans);
-  @include typeset($sans, 1rem * break-get(0, font-size-factor-large), 1 * break-get(0, font-size-factor-large), 0, 2);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-extra-large), 1 * break-get(0, font-size-factor-large), 0, 6);
   @include min-width(1) {
-      @include typeset($sans, 1rem * break-get(1, font-size-factor-large), 1 * break-get(1, font-size-factor-large), 0, 2);
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-extra-large), 1 * break-get(1, font-size-factor-large), 0, 3);
   }
   @include min-width(2) {
-      @include typeset($sans, 1rem * break-get(2, font-size-factor-large), 1 * break-get(2, font-size-factor-large), 0, 2);
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-extra-large), 1 * break-get(2, font-size-factor-large), 0, 3);
   }
   @include min-width(3) {
-      @include typeset($sans, 1rem * break-get(3, font-size-factor-large), 1 * break-get(3, font-size-factor-large), 0, 2);
+    font-weight: 300;
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-extra-large), 1 * break-get(3, font-size-factor-large), 0, 3);
   }
   @include min-width(4) {
-      @include typeset($sans, 1rem * break-get(4, font-size-factor-large), 1 * break-get(4, font-size-factor-large), 0, 2);
+    font-weight: 300;
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-extra-large), 1 * break-get(4, font-size-factor-large), 0, 3);
   }
-  font-weight: 300;
+}
+
+h2 {
+  font-weight: normal;
+  opacity: 0.5;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 1 * break-get(0, font-size-factor-small), 4, 2);
+  @include min-width(1) {
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 1 * break-get(1, font-size-factor-small), 4, 2);
+  }
+  @include min-width(2) {
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 1 * break-get(2, font-size-factor-small), 4, 2);
+  }
+  @include min-width(3) {
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 1 * break-get(3, font-size-factor-small), 4, 2);
+  }
+  @include min-width(4) {
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 1 * break-get(4, font-size-factor-small), 4, 2);
+  }
 }
 
 p {
   font-family: font-family-of($sans);
-  @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 2 * break-get(3, font-size-factor-medium), 0, 2);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 2 * break-get(0, font-size-factor-medium), 0, 2);
+  @include min-width(1) {
+      @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 2 * break-get(1, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(2) {
+      @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 2 * break-get(2, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(3) {
+      @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 2 * break-get(3, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(4) {
+      @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 2 * break-get(4, font-size-factor-medium), 0, 2);
+  }
 }
 
 a {
@@ -45,17 +83,17 @@ a {
 
 .container {
   @include set-container;
-  margin: 0 1rem;
+  margin: 1rem * $ratio-large;
   @include min-width(1) {
-    margin: 0 1.8rem;
+    margin: 1rem * $ratio-large;
   }
   @include min-width(2) {
-    margin: 0 auto;
+    margin: (2rem * $ratio-large) auto;
   }
   @include min-width(3) {
-    margin: 0 auto;
+    margin: (2rem * $ratio-large) auto;
   }
   @include min-width(4) {
-    margin: 0 auto;
+    margin: (2rem * $ratio-large) auto;
   }
 }

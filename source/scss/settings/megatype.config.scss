@@ -78,47 +78,47 @@ $breakpoint-map: (
     0: (
         start:      0px,
         max:        420px,
-        rootsize:   22px,
-        font-size-factor-small:         0.5,
-        font-size-factor-medium:        1,
-        font-size-factor-large:         1.5,
-        font-size-factor-extra-large:   4
+        rootsize:   12px,
+        font-size-factor-small:         $ratio-small,
+        font-size-factor-medium:        $ratio-medium,
+        font-size-factor-large:         $ratio-large,
+        font-size-factor-extra-large:   $ratio-extra-large
     ),
     1: (
         start:      480px,
         max:        560px,
-        rootsize:   22px,
-        font-size-factor-small:         0.5,
-        font-size-factor-medium:        1,
-        font-size-factor-large:         2,
-        font-size-factor-extra-large:   4
+        rootsize:   12px,
+        font-size-factor-small:         $ratio-small,
+        font-size-factor-medium:        $ratio-medium,
+        font-size-factor-large:         $ratio-large,
+        font-size-factor-extra-large:   $ratio-extra-large
     ),
     2: (
         start:      768px,
         max:        840px,
-        rootsize:   22px,
-        font-size-factor-small:         0.5,
-        font-size-factor-medium:        1,
-        font-size-factor-large:         2.5,
-        font-size-factor-extra-large:   4
+        rootsize:   12px,
+        font-size-factor-small:         $ratio-small,
+        font-size-factor-medium:        $ratio-medium,
+        font-size-factor-large:         $ratio-large,
+        font-size-factor-extra-large:   $ratio-extra-large
     ),
     3: (
         start:      980px,
-        max:        1080px,
-        rootsize:   22px,
-        font-size-factor-small:         0.5,
-        font-size-factor-medium:        1,
-        font-size-factor-large:         3,
-        font-size-factor-extra-large:   4
+        max:        860px,
+        rootsize:   16px,
+        font-size-factor-small:         $ratio-small,
+        font-size-factor-medium:        $ratio-medium,
+        font-size-factor-large:         $ratio-large,
+        font-size-factor-extra-large:   $ratio-extra-large
     ),
     4: (
         start:      1280px,
-        max:        1440px,
-        rootsize:   22px,
-        font-size-factor-small:         0.5,
-        font-size-factor-medium:        1,
-        font-size-factor-large:         3.5,
-        font-size-factor-extra-large:   4
+        max:        960px,
+        rootsize:   18px,
+        font-size-factor-small:         $ratio-small,
+        font-size-factor-medium:        $ratio-medium,
+        font-size-factor-large:         $ratio-large,
+        font-size-factor-extra-large:   $ratio-extra-large
     )
 ) !default;
 

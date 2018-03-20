@@ -1,6 +1,6 @@
 
 
-$debug-allow: true;
+$debug-allow: false;
 
 // =====================================================
 // ------------------ Megatype config ------------------
@@ -78,27 +78,47 @@ $breakpoint-map: (
     0: (
         start:      0px,
         max:        420px,
-        rootsize:   12px
+        rootsize:   22px,
+        font-size-factor-small:         0.5,
+        font-size-factor-medium:        1,
+        font-size-factor-large:         1.5,
+        font-size-factor-extra-large:   4
     ),
     1: (
         start:      480px,
         max:        560px,
-        rootsize:   14px
+        rootsize:   22px,
+        font-size-factor-small:         0.5,
+        font-size-factor-medium:        1,
+        font-size-factor-large:         2,
+        font-size-factor-extra-large:   4
     ),
     2: (
         start:      768px,
         max:        840px,
-        rootsize:   16px
+        rootsize:   22px,
+        font-size-factor-small:         0.5,
+        font-size-factor-medium:        1,
+        font-size-factor-large:         2.5,
+        font-size-factor-extra-large:   4
     ),
     3: (
         start:      980px,
         max:        1080px,
-        rootsize:   18px
+        rootsize:   22px,
+        font-size-factor-small:         0.5,
+        font-size-factor-medium:        1,
+        font-size-factor-large:         3,
+        font-size-factor-extra-large:   4
     ),
     4: (
         start:      1280px,
         max:        1440px,
-        rootsize:   20px
+        rootsize:   22px,
+        font-size-factor-small:         0.5,
+        font-size-factor-medium:        1,
+        font-size-factor-large:         3.5,
+        font-size-factor-extra-large:   4
     )
 ) !default;
 
@@ -117,7 +137,7 @@ $type-measure: 40rem !default;
 $link-color: palette(blue) !default;
 
 // link offset from baseline
-$link-offset: 2px !default;
+$link-offset: 1px !default;
 
 // link underline opacity
 $link-underline-opacity: 0.6 !default;

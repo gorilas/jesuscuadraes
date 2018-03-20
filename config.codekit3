@@ -467,6 +467,27 @@
 		"oAP": "\/build\/fonts\/test-webfont.woff2",
 		"oF": 0
 		},
+	"\/source\/fonts\/test_light-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test_light-webfont.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/test_light-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test_light-webfont.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/test_light-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/fonts\/test_light-webfont.woff2",
+		"oF": 0
+		},
 	"\/source\/humans.txt": {
 		"cB": 0,
 		"ft": 8192,

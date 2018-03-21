@@ -22,7 +22,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background-color: black;
+  background:
+    linear-gradient(
+      cyan,
+      transparent
+    ),
+    linear-gradient(
+      -45deg,
+      magenta,
+      transparent
+    ),
+    linear-gradient(
+      45deg,
+      yellow,
+      transparent
+    );
+  background-blend-mode: multiply;
 }
 
 ::selection {
@@ -86,10 +101,6 @@ p {
   }
 }
 
-a {
-  @include text-link($color: palette(blue), $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
-}
-
 .main {
   position: relative;
   background-color: white;
@@ -118,7 +129,6 @@ a {
 .footer {
   position: relative;
   height:100vh;
-  background-color: black;
   width: 100%;
   z-index: 0;
 }
@@ -127,5 +137,10 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 

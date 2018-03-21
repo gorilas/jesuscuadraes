@@ -86,10 +86,6 @@ p {
   }
 }
 
-a {
-  @include text-link($color: palette(blue), $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
-}
-
 .main {
   position: relative;
   background-color: white;
@@ -127,5 +123,24 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+line {
+  stroke: #3f51b5;
+  stroke-width: 2;
+
 }
 

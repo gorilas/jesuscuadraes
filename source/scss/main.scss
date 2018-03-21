@@ -11,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  min-height:100%;
 }
 
 *, *:before, *:after {
@@ -23,6 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-color: black;
+  min-height:100%;
 }
 
 ::selection {
@@ -86,15 +88,12 @@ p {
   }
 }
 
-a {
-  @include text-link($color: palette(blue), $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
-}
-
 .main {
   position: relative;
   background-color: white;
   padding: 2rem 0;
   z-index: 1;
+  pointer-events: none;
 }
 
 .container {
@@ -127,12 +126,17 @@ a {
   position: fixed;
   bottom: 0;
   width: 100%;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 canvas {
   position: fixed;
-  top:0;
+  bottom:0;
   left:0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }

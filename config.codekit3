@@ -247,6 +247,143 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/tinycolor\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/tinycolor\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/tinycolor\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/tinycolor\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/tinycolor\/demo\/demo.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/demo\/demo.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/tinycolor\/demo\/jquery-1.9.1.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/demo\/jquery-1.9.1.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/tinycolor\/dist\/tinycolor-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/dist\/tinycolor-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/tinycolor\/docs\/docco.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/docs\/docco.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/tinycolor\/docs\/tinycolor.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/docs\/tinycolor.html",
+		"oF": 0
+		},
+	"\/bower_components\/tinycolor\/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/Gruntfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/tinycolor\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/tinycolor\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/tinycolor\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/tinycolor\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/tinycolor\/tinycolor.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/build\/bower_components\/tinycolor\/tinycolor.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,

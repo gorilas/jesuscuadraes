@@ -33,6 +33,7 @@
   ],
   "private": true,
   "dependencies": {
-    "megatype": "^1.1.2"
+    "megatype": "^1.1.2",
+    "tinycolor": "^1.4.1"
   }
 }

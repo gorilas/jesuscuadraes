@@ -87,7 +87,11 @@ p {
 }
 
 a {
-  @include text-link($color: palette(blue), $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
+  color: white;
+  text-decoration: none;
+  &:hover {
+    @include text-link($color: white, $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
+  }
 }
 
 .main {
@@ -118,9 +122,10 @@ a {
 .footer {
   position: relative;
   height:100vh;
-  background-color: black;
   width: 100%;
   z-index: 0;
+  background: black url('../img/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 .footer-inner {

@@ -33,7 +33,7 @@ body {
 h1, .h1 {
   font-weight: normal;
   font-family: font-family-of($sans);
-  @include typeset($sans, 1rem * break-get(0, font-size-factor-extra-large), 2 * break-get(0, font-size-factor-large), 0, 6);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-extra-large), 2 * break-get(0, font-size-factor-large), 0, 3);
   @include min-width(1) {
     @include typeset($sans, 1rem * break-get(1, font-size-factor-extra-large), 2 * break-get(1, font-size-factor-large), 0, 3);
   }

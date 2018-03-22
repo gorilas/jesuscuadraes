@@ -667,6 +667,13 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
+	"\/source\/Jesus_Cuadra.vcf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/Jesus_Cuadra.vcf",
+		"oF": 0
+		},
 	"\/source\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -802,7 +809,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543363928
+	"lastBuiltDate": 543429945
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -92,7 +92,7 @@ p {
   position: relative;
   background-color: white;
   padding: 2rem 0;
-  z-index: 1;
+  z-index: 3;
   pointer-events: none;
 }
 
@@ -117,13 +117,12 @@ p {
 .footer {
   position: relative;
   height:100vh;
-  background-color: black;
   width: 100%;
-  z-index: 0;
 }
 
 .footer-inner {
   position: fixed;
+  z-index: 1;
   bottom: 0;
   width: 100%;
 
@@ -138,5 +137,7 @@ canvas {
   bottom:0;
   left:0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
 }

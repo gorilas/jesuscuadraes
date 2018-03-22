@@ -667,6 +667,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/source\/js\/paperjs-script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/js\/paperjs-script.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/source\/js\/plugins.js": {
 		"ft": 64,
 		"ma": 0,
@@ -792,7 +802,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543324089
+	"lastBuiltDate": 543431965
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

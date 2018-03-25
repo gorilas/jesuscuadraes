@@ -106,7 +106,7 @@ a {
   @include set-container;
   margin: 1rem * $ratio-large;
   @include min-width(1) {
-    margin: 1rem * $ratio-large;
+    margin: (1rem * $ratio-large) auto;
   }
   @include min-width(2) {
     margin: (2rem * $ratio-large) auto;
@@ -124,6 +124,7 @@ a {
   height:100vh;
   width: 100%;
   z-index: 0;
+  background-color: black;
 }
 
 .footer-inner {
@@ -138,26 +139,9 @@ a {
   bottom: 0;
   width: 100%;
   height: 100vh;
-  background:
-  url('../img/bg.jpg'),
-  linear-gradient(
-    cyan,
-    transparent
-  ),
-  linear-gradient(
-    -45deg,
-    magenta,
-    transparent
-  ),
-  linear-gradient(
-    45deg,
-    yellow,
-    transparent
-  );
-  background-repeat: no-repeat;
-  background-position: center center;
+  opacity: 0.8;
+  background: #b9b9bb url('../img/bg2.jpg')no-repeat bottom right;
   background-attachment: fixed;
-  background-blend-mode: overlay;
   background-size: cover;
 }
 

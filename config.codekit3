@@ -660,6 +660,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/bg2.jpg": {
+		"ft": 16384,
+		"iS": 127008,
+		"oA": 0,
+		"oAP": "\/build\/img\/bg2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -809,7 +819,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543429945
+	"lastBuiltDate": 543448624
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

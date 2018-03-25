@@ -86,7 +86,7 @@ $breakpoint-map: (
     ),
     1: (
         start:      480px,
-        max:        560px,
+        max:        460px,
         rootsize:   12px,
         font-size-factor-small:         $ratio-small,
         font-size-factor-medium:        $ratio-medium,
@@ -95,7 +95,7 @@ $breakpoint-map: (
     ),
     2: (
         start:      768px,
-        max:        840px,
+        max:        520px,
         rootsize:   12px,
         font-size-factor-small:         $ratio-small,
         font-size-factor-medium:        $ratio-medium,
@@ -104,7 +104,7 @@ $breakpoint-map: (
     ),
     3: (
         start:      980px,
-        max:        860px,
+        max:        660px,
         rootsize:   16px,
         font-size-factor-small:         $ratio-small,
         font-size-factor-medium:        $ratio-medium,
@@ -113,7 +113,7 @@ $breakpoint-map: (
     ),
     4: (
         start:      1280px,
-        max:        960px,
+        max:        720px,
         rootsize:   18px,
         font-size-factor-small:         $ratio-small,
         font-size-factor-medium:        $ratio-medium,

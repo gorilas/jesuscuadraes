@@ -384,12 +384,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -658,7 +652,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 60
 		},
 	"\/source\/img\/bg2.jpg": {
 		"ft": 16384,
@@ -668,7 +662,37 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 60
+		},
+	"\/source\/img\/servicios_agile.jpg": {
+		"ft": 16384,
+		"iS": 170757,
+		"oA": 0,
+		"oAP": "\/build\/img\/servicios_agile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/source\/img\/servicios_formacion.jpg": {
+		"ft": 16384,
+		"iS": 297741,
+		"oA": 0,
+		"oAP": "\/build\/img\/servicios_formacion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
+		},
+	"\/source\/img\/servicios_ux.jpg": {
+		"ft": 16384,
+		"iS": 142508,
+		"oA": 0,
+		"oAP": "\/build\/img\/servicios_ux.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 60
 		},
 	"\/source\/index.html": {
 		"cB": 0,
@@ -819,7 +843,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543448624
+	"lastBuiltDate": 543752004
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2622,7 +2646,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"quality": 100
+		"quality": 60
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,

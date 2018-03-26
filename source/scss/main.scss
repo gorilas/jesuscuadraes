@@ -145,6 +145,11 @@ p {
   background-size: cover;
 }
 
+.section-image {
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
 
 // accordion
 
@@ -186,7 +191,11 @@ p {
 }
 
 .accordion-panel__inner {
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 :focus {

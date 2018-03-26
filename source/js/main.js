@@ -192,4 +192,4 @@ AccordionWidget.prototype.destroy = function () {
     }
 };
 
-new AccordionWidget(document.getElementsByClassName('accordion-interface')[0], 0);
+new AccordionWidget(document.getElementsByClassName('accordion-interface')[0], null);

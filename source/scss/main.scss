@@ -159,18 +159,18 @@ p {
   font-weight: normal;
   opacity: 0.5;
   font-family: font-family-of($sans);
-  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 1 * break-get(0, font-size-factor-small), 0, 0);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 1 * break-get(0, font-size-factor-medium), 0, 0);
   @include min-width(1) {
-    @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 1 * break-get(1, font-size-factor-small), 0, 0);
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 1 * break-get(1, font-size-factor-medium), 0, 0);
   }
   @include min-width(2) {
-    @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 1 * break-get(2, font-size-factor-small), 0, 0);
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 1 * break-get(2, font-size-factor-medium), 0, 0);
   }
   @include min-width(3) {
-    @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 1 * break-get(3, font-size-factor-small), 0, 0);
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 1 * break-get(3, font-size-factor-medium), 0, 0);
   }
   @include min-width(4) {
-    @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 1 * break-get(4, font-size-factor-small), 0, 0);
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 1 * break-get(4, font-size-factor-medium), 0, 0);
   }
   text-decoration: none;
 }

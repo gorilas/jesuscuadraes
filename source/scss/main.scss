@@ -86,14 +86,6 @@ p {
   }
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  &:hover {
-    @include text-link($color: white, $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
-  }
-}
-
 .main {
   position: relative;
   background-color: white;
@@ -132,6 +124,14 @@ a {
   bottom: 0;
   width: 100%;
   color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      @include text-link($color: white, $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
+    }
+  }
 }
 
 .footer-bg {
@@ -143,5 +143,53 @@ a {
   background: #b9b9bb url('../img/bg2.jpg')no-repeat bottom right;
   background-attachment: fixed;
   background-size: cover;
+}
+
+
+// accordion
+
+.accordion-trigger {
+  display: block;
+  margin-top: 4rem;
+  font-weight: normal;
+  opacity: 0.5;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 1 * break-get(0, font-size-factor-small), 0, 0);
+  @include min-width(1) {
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 1 * break-get(1, font-size-factor-small), 0, 0);
+  }
+  @include min-width(2) {
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 1 * break-get(2, font-size-factor-small), 0, 0);
+  }
+  @include min-width(3) {
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 1 * break-get(3, font-size-factor-small), 0, 0);
+  }
+  @include min-width(4) {
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 1 * break-get(4, font-size-factor-small), 0, 0);
+  }
+  text-decoration: none;
+}
+
+.accordion-panel {
+  max-height: 1000px;
+  opacity: 1;
+  transition: opacity ease 0.75s, max-height ease 0.5s;
+  visibility: visible;
+
+  &.is-hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    visibility: hidden;
+  }
+}
+
+.accordion-panel__inner {
+  padding: 2rem 0;
+}
+
+:focus {
+  outline: none;
 }
 

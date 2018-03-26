@@ -69,7 +69,8 @@ h2, .h2 {
   }
 }
 
-p {
+p, cite {
+  font-style: normal;
   font-family: font-family-of($sans);
   @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 2 * break-get(0, font-size-factor-medium), 0, 2);
   @include min-width(1) {
@@ -84,6 +85,42 @@ p {
   @include min-width(4) {
       @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 2 * break-get(4, font-size-factor-medium), 0, 2);
   }
+}
+
+cite {
+
+  &:before {
+    content: open-quote;
+  }
+
+  &:after {
+    content: close-quote;
+  }
+}
+
+cite + p {
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 2 * break-get(0, font-size-factor-small), 0, 2);
+  @include min-width(1) {
+      @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 2 * break-get(1, font-size-factor-small), 0, 2);
+  }
+  @include min-width(2) {
+      @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 2 * break-get(2, font-size-factor-small), 0, 2);
+  }
+  @include min-width(3) {
+      @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 2 * break-get(3, font-size-factor-small), 0, 2);
+  }
+  @include min-width(4) {
+      @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 2 * break-get(4, font-size-factor-small), 0, 2);
+  }
+
+  &:before {
+    content: "—";
+  }
+}
+
+blockquote {
+  margin-top: 4rem;
 }
 
 .main {
@@ -139,7 +176,6 @@ p {
   bottom: 0;
   width: 100%;
   height: 100vh;
-  opacity: 0.8;
   background: #b9b9bb url('../img/bg2.jpg')no-repeat bottom right;
   background-attachment: fixed;
   background-size: cover;
@@ -176,7 +212,7 @@ p {
 }
 
 .accordion-panel {
-  max-height: 1000px;
+  max-height: 4000px;
   opacity: 1;
   transition: opacity ease 0.75s, max-height ease 0.5s;
   visibility: visible;

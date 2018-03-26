@@ -182,8 +182,21 @@ blockquote {
 }
 
 .section-image {
+  display: block;
   max-width: 100%;
   margin-top: 2rem;
+  @include min-width(1) {
+    margin: 0 auto;
+  }
+  @include min-width(2) {
+    margin: 0 auto;
+  }
+  @include min-width(3) {
+    margin: 0 auto;
+  }
+  @include min-width(4) {
+    margin: 0 auto;
+  }
 }
 
 

@@ -724,20 +724,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/source\/LICENSE.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/LICENSE.txt",
-		"oF": 0
-		},
-	"\/source\/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/robots.txt",
-		"oF": 0
-		},
 	"\/source\/scss\/components\/_components.accordion.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -868,7 +854,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543858333
+	"lastBuiltDate": 543858568
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

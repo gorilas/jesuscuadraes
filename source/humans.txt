@@ -1,15 +1,18 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* the humans responsible & colophon */
+/* humanstxt.org */
 
-# TEAM
 
-    <name> -- <role> -- <twitter>
+/* TEAM */
 
-# THANKS
+WebDesigner: Jesús Cuadra
+Site: jesuscuadra.es, hola@jesuscuadra.es
+Twitter: @jesuscuadraes
+Location: Zaragoza, Spain
 
-    <name>
 
-# TECHNOLOGY COLOPHON
+/* SITE */
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+Standards: HTML5, CSS3
+Components: Modernizr, html5boilerplate, Megatype, Vanilla JS Accessible Accordion Widget by Matt Stow
+Software: Sublime Text 3, Codekit
+Fonts: Untitled Sans by Klim

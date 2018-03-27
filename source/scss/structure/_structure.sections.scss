@@ -1,0 +1,80 @@
+/* ==========================================================================
+   _sctructure.sections.scss
+   ========================================================================== */
+
+
+
+.main {
+  position: relative;
+  background-color: white;
+  padding: 2rem 0;
+  z-index: 1;
+  color: black;
+}
+
+.container {
+  @include set-container;
+  margin: 1rem * $ratio-large;
+  @include min-width(1) {
+    margin: (1rem * $ratio-large) auto;
+  }
+  @include min-width(2) {
+    margin: (2rem * $ratio-large) auto;
+  }
+  @include min-width(3) {
+    margin: (2rem * $ratio-large) auto;
+  }
+  @include min-width(4) {
+    margin: (2rem * $ratio-large) auto;
+  }
+}
+
+.footer {
+  position: relative;
+  height:100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.footer-inner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      @include text-link($color: white, $hover: $color-hover, $offset: $link-offset, $opacity: $link-underline-opacity, $hover-opacity: $link-underline-hover-opacity);
+    }
+  }
+}
+
+.footer-bg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: #b9b9bb url('../img/bg2.jpg')no-repeat bottom right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-image {
+  display: block;
+  max-width: 100%;
+  margin-top: 2rem;
+  @include min-width(1) {
+    margin: 0 auto;
+  }
+  @include min-width(2) {
+    margin: 0 auto;
+  }
+  @include min-width(3) {
+    margin: 0 auto;
+  }
+  @include min-width(4) {
+    margin: 0 auto;
+  }
+}

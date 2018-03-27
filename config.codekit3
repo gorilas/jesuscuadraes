@@ -758,6 +758,32 @@
 		"oAP": "\/build\/robots.txt",
 		"oF": 0
 		},
+	"\/source\/scss\/components\/_components.accordion.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_components.accordion.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/generic\/_generic.base.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_generic.base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/main.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -771,7 +797,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/scss\/settings\/fonts.config.scss": {
+	"\/source\/scss\/settings\/_settings.config.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -779,12 +805,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/fonts.config.css",
+		"oAP": "\/build\/scss\/css\/_settings.config.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/scss\/settings\/megatype.config.scss": {
+	"\/source\/scss\/settings\/_settings.fonts.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -792,12 +818,12 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/megatype.config.css",
+		"oAP": "\/build\/scss\/css\/_settings.fonts.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/scss\/settings\/settings.config.scss": {
+	"\/source\/scss\/settings\/_settings.megatype.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
@@ -805,7 +831,20 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/settings.config.css",
+		"oAP": "\/build\/scss\/css\/_settings.megatype.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/structure\/_structure.sections.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_structure.sections.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

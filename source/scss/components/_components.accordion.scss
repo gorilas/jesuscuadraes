@@ -1,0 +1,63 @@
+/* ==========================================================================
+   components.accordion.scss
+   ========================================================================== */
+
+
+.accordion-trigger {
+  display: block;
+  margin-top: 4rem;
+  font-weight: normal;
+  opacity: 0.5;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 1 * break-get(0, font-size-factor-medium), 0, 0);
+  @include min-width(1) {
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 1 * break-get(1, font-size-factor-medium), 0, 0);
+  }
+  @include min-width(2) {
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 1 * break-get(2, font-size-factor-medium), 0, 0);
+  }
+  @include min-width(3) {
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 1 * break-get(3, font-size-factor-medium), 0, 0);
+  }
+  @include min-width(4) {
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 1 * break-get(4, font-size-factor-medium), 0, 0);
+  }
+  text-decoration: none;
+  color: black;
+
+  &:before {
+    // Don't use generated content for the indicator in production as it gets read to screenreaders
+    content: "—";
+    display: inline-block;
+    margin: 0 0.4rem 0 -2.1rem;
+    transition: opacity ease-in 0.1s, transform ease 0.3s;
+  }
+
+  &.is-expanded:before {
+    opacity: 0;
+    transform: translate(-2rem,0);
+  }
+}
+
+.accordion-panel {
+  max-height: 4000px;
+  opacity: 1;
+  transition: opacity ease 0.75s, max-height ease 0.5s;
+  visibility: visible;
+
+  &.is-hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    visibility: hidden;
+  }
+}
+
+.accordion-panel__inner {
+  padding: 2rem 0 0 0;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}

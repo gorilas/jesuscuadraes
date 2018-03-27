@@ -1,0 +1,123 @@
+/* ==========================================================================
+   _generic.base.scss
+   ========================================================================== */
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: white;
+}
+
+::selection {
+  background: deeppink;
+  color: white;
+}
+
+h1, .h1 {
+  font-weight: normal;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-extra-large), 2 * break-get(0, font-size-factor-large), 0, 3);
+  @include min-width(1) {
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-extra-large), 2 * break-get(1, font-size-factor-large), 0, 3);
+  }
+  @include min-width(2) {
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-extra-large), 2 * break-get(2, font-size-factor-large), 0, 3);
+  }
+  @include min-width(3) {
+    font-weight: 300;
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-extra-large), 2 * break-get(3, font-size-factor-large), 0, 3);
+  }
+  @include min-width(4) {
+    font-weight: 300;
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-extra-large), 2 * break-get(4, font-size-factor-large), 0, 3);
+  }
+}
+
+h2, .h2 {
+  font-weight: normal;
+  opacity: 0.5;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 1 * break-get(0, font-size-factor-medium), 4, 2);
+  @include min-width(1) {
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 1 * break-get(1, font-size-factor-medium), 4, 2);
+  }
+  @include min-width(2) {
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 1 * break-get(2, font-size-factor-medium), 4, 2);
+  }
+  @include min-width(3) {
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 1 * break-get(3, font-size-factor-medium), 4, 2);
+  }
+  @include min-width(4) {
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 1 * break-get(4, font-size-factor-medium), 4, 2);
+  }
+}
+
+p, cite {
+  font-style: normal;
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 2 * break-get(0, font-size-factor-medium), 0, 2);
+  @include min-width(1) {
+      @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 2 * break-get(1, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(2) {
+      @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 2 * break-get(2, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(3) {
+      @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 2 * break-get(3, font-size-factor-medium), 0, 2);
+  }
+  @include min-width(4) {
+      @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 2 * break-get(4, font-size-factor-medium), 0, 2);
+  }
+}
+
+cite {
+
+  &:before {
+    content: open-quote;
+  }
+
+  &:after {
+    content: close-quote;
+  }
+}
+
+cite + p {
+  font-family: font-family-of($sans);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 2 * break-get(0, font-size-factor-small), 0, 2);
+  @include min-width(1) {
+      @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 2 * break-get(1, font-size-factor-small), 0, 2);
+  }
+  @include min-width(2) {
+      @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 2 * break-get(2, font-size-factor-small), 0, 2);
+  }
+  @include min-width(3) {
+      @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 2 * break-get(3, font-size-factor-small), 0, 2);
+  }
+  @include min-width(4) {
+      @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 2 * break-get(4, font-size-factor-small), 0, 2);
+  }
+
+  &:before {
+    content: "—";
+  }
+}
+
+blockquote {
+  margin-top: 4rem;
+}
+
+:focus {
+  outline: none;
+}

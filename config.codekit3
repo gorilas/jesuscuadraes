@@ -652,7 +652,7 @@
 		},
 	"\/source\/img\/bg.jpg": {
 		"ft": 16384,
-		"iS": 488903,
+		"iS": 127008,
 		"oA": 0,
 		"oAP": "\/build\/img\/bg.jpg",
 		"oF": 0,
@@ -660,41 +660,21 @@
 		"opt": 1,
 		"q": 60
 		},
-	"\/source\/img\/bg2.jpg": {
-		"ft": 16384,
-		"iS": 127008,
-		"oA": 0,
-		"oAP": "\/build\/img\/bg2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 60
-		},
-	"\/source\/img\/servicios_agile.jpg": {
+	"\/source\/img\/colaborando_con_equipos.jpg": {
 		"ft": 16384,
 		"iS": 170757,
 		"oA": 0,
-		"oAP": "\/build\/img\/servicios_agile.jpg",
+		"oAP": "\/build\/img\/colaborando_con_equipos.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 60
 		},
-	"\/source\/img\/servicios_formacion.jpg": {
-		"ft": 16384,
-		"iS": 297741,
-		"oA": 0,
-		"oAP": "\/build\/img\/servicios_formacion.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 60
-		},
-	"\/source\/img\/servicios_ux.jpg": {
+	"\/source\/img\/trabajo_colaborativo.jpg": {
 		"ft": 16384,
 		"iS": 142508,
 		"oA": 0,
-		"oAP": "\/build\/img\/servicios_ux.jpg",
+		"oAP": "\/build\/img\/trabajo_colaborativo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -888,7 +868,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543752206
+	"lastBuiltDate": 543858333
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

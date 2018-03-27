@@ -57,12 +57,11 @@
 }
 
 .footer-bg {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 100vh;
-  background: #b9b9bb url('../img/bg.jpg')no-repeat bottom right;
-  background-attachment: fixed;
+  background: #b9b9bb url('../img/bg.jpg') no-repeat bottom right;
   background-size: cover;
 }
 

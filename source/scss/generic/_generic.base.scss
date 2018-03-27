@@ -18,6 +18,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-color: white;
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+  transition-timing-function: cubic-bezier(0.470, 0.000, 0.745, 0.715); /* easeInSine */
+
+  &.loaded {
+    opacity: 1; // onload body appears
+  }
 }
 
 ::selection {

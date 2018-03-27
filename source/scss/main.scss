@@ -54,18 +54,18 @@ h2, .h2 {
   font-weight: normal;
   opacity: 0.5;
   font-family: font-family-of($sans);
-  @include typeset($sans, 1rem * break-get(0, font-size-factor-small), 1 * break-get(0, font-size-factor-small), 4, 2);
+  @include typeset($sans, 1rem * break-get(0, font-size-factor-medium), 1 * break-get(0, font-size-factor-medium), 4, 2);
   @include min-width(1) {
-    @include typeset($sans, 1rem * break-get(1, font-size-factor-small), 1 * break-get(1, font-size-factor-small), 4, 2);
+    @include typeset($sans, 1rem * break-get(1, font-size-factor-medium), 1 * break-get(1, font-size-factor-medium), 4, 2);
   }
   @include min-width(2) {
-    @include typeset($sans, 1rem * break-get(2, font-size-factor-small), 1 * break-get(2, font-size-factor-small), 4, 2);
+    @include typeset($sans, 1rem * break-get(2, font-size-factor-medium), 1 * break-get(2, font-size-factor-medium), 4, 2);
   }
   @include min-width(3) {
-    @include typeset($sans, 1rem * break-get(3, font-size-factor-small), 1 * break-get(3, font-size-factor-small), 4, 2);
+    @include typeset($sans, 1rem * break-get(3, font-size-factor-medium), 1 * break-get(3, font-size-factor-medium), 4, 2);
   }
   @include min-width(4) {
-    @include typeset($sans, 1rem * break-get(4, font-size-factor-small), 1 * break-get(4, font-size-factor-small), 4, 2);
+    @include typeset($sans, 1rem * break-get(4, font-size-factor-medium), 1 * break-get(4, font-size-factor-medium), 4, 2);
   }
 }
 
@@ -228,11 +228,13 @@ blockquote {
     // Don't use generated content for the indicator in production as it gets read to screenreaders
     content: "—";
     display: inline-block;
-    margin: 0 0.2rem 0 -2rem;
+    margin: 0 0.4rem 0 -2.1rem;
+    transition: opacity ease-in 0.1s, transform ease 0.3s;
   }
 
   &.is-expanded:before {
     opacity: 0;
+    transform: translate(-2rem,0);
   }
 }
 

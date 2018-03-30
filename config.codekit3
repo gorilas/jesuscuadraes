@@ -384,12 +384,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -583,46 +577,46 @@
 		"oAP": "\/build\/favicon.ico",
 		"oF": 0
 		},
-	"\/source\/fonts\/test-webfont.ttf": {
+	"\/source\/fonts\/UntitledSansWeb-Light.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test-webfont.ttf",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Light.eot",
 		"oF": 0
 		},
-	"\/source\/fonts\/test-webfont.woff": {
+	"\/source\/fonts\/UntitledSansWeb-Light.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test-webfont.woff",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Light.woff",
 		"oF": 0
 		},
-	"\/source\/fonts\/test-webfont.woff2": {
+	"\/source\/fonts\/UntitledSansWeb-Light.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test-webfont.woff2",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Light.woff2",
 		"oF": 0
 		},
-	"\/source\/fonts\/test_light-webfont.ttf": {
+	"\/source\/fonts\/UntitledSansWeb-Regular.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test_light-webfont.ttf",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Regular.eot",
 		"oF": 0
 		},
-	"\/source\/fonts\/test_light-webfont.woff": {
+	"\/source\/fonts\/UntitledSansWeb-Regular.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test_light-webfont.woff",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Regular.woff",
 		"oF": 0
 		},
-	"\/source\/fonts\/test_light-webfont.woff2": {
+	"\/source\/fonts\/UntitledSansWeb-Regular.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/fonts\/test_light-webfont.woff2",
+		"oAP": "\/build\/fonts\/UntitledSansWeb-Regular.woff2",
 		"oF": 0
 		},
 	"\/source\/humans.txt": {
@@ -871,7 +865,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
-	"lastBuiltDate": 543860068
+	"lastBuiltDate": 544139211
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

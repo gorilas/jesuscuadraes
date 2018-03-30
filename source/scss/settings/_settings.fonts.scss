@@ -6,16 +6,18 @@
 
 @font-face {
   font-family: "Untitled Sans";
-  src: url('../fonts/test-webfont.woff2') format('woff2'),
-       url('../fonts/test-webfont.woff') format('woff');
+  src: url('../fonts/UntitledSansWeb-Regular.eot') format('eot'),
+       url('../fonts/UntitledSansWeb-Regular.woff2') format('woff2'),
+       url('../fonts/UntitledSansWeb-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Untitled Sans";
-  src: url('../fonts/test_light-webfont.woff2') format('woff2'),
-       url('../fonts/test_light-webfont.woff') format('woff');
+  src: url('../fonts/UntitledSansWeb-Light.eot') format('eot'),
+       url('../fonts/UntitledSansWeb-Light.woff2') format('woff2'),
+       url('../fonts/UntitledSansWeb-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }

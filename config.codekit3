@@ -7,7 +7,7 @@
 		"uuidString": "70ABF897-E737-44BC-BF18-580C56ED98AE"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -384,6 +384,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -647,6 +653,7 @@
 	"\/source\/img\/bg.jpg": {
 		"ft": 16384,
 		"iS": 127008,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/bg.jpg",
 		"oF": 0,
@@ -657,6 +664,7 @@
 	"\/source\/img\/colaborando_con_equipos.jpg": {
 		"ft": 16384,
 		"iS": 170757,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/colaborando_con_equipos.jpg",
 		"oF": 0,
@@ -677,6 +685,7 @@
 	"\/source\/img\/trabajo_colaborativo.jpg": {
 		"ft": 16384,
 		"iS": 142508,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/build\/img\/trabajo_colaborativo.jpg",
 		"oF": 0,
@@ -865,6 +874,7 @@
 	"displayValue": "jesuscuadraes",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 544139211
 	},
 "projectSettings": {
@@ -2668,6 +2678,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 60
 		},
 	"languageDefaultsJS": {

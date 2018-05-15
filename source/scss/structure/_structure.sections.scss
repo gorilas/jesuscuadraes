@@ -50,7 +50,7 @@
 
 @supports (background-blend-mode: overlay) {
   .logo {
-    background-image: linear-gradient(180deg, white -40%, black 140%);
+    background-image: linear-gradient(180deg, yellow -40%, blue 140%);
     background-blend-mode: overlay;
   }
 }

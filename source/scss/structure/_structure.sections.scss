@@ -37,12 +37,37 @@
   position: absolute;
   top: 2rem;
   left: 2rem;
+  line-height: 0;
+  // http://iamvdo.me/en/blog/ui-with-rotating-color-scheme
+  animation: wheelHueColor 20s ease-in-out infinite;
+  background-color: currentColor;
 
   svg {
-    width: 4rem;
-    height: 4rem;
+    width: 1rem * 10.666666667 * 0.4;
+    height: 1rem * 10.666666667 * 0.4;
   }
 }
+
+@supports (background-blend-mode: overlay) {
+  .logo {
+    background-image: linear-gradient(180deg, white -40%, black 140%);
+    background-blend-mode: overlay;
+  }
+}
+
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
 
 .footer {
   position: relative;

@@ -9,6 +9,7 @@
 window.addEventListener("load", function(event)
 {
   document.body.classList.add("loaded");
+  document.getElementById("footer-bg").style.backgroundImage = "url('img/bg.jpg')";
 });
 
 

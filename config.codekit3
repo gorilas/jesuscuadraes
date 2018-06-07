@@ -384,12 +384,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -865,7 +859,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/source\/icon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 549209400
+	"lastBuiltDate": 549976702
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
